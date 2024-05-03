@@ -1,3 +1,5 @@
+package In_Class_Practice;
+
 public class StringExample {
     public static void main(String[] args){
         String str = "This is a string. The more text I add, the length will increase";

@@ -1,3 +1,5 @@
+package In_Class_Practice;
+
 public class StringBufferExample {
     public static void main(String[] args){
         StringBuffer sb = new StringBuffer("filename.txt");
@@ -11,6 +13,9 @@ public class StringBufferExample {
         System.out.println(sb);
 
         sb.replace(0, 4, "very_old_");
+        System.out.println(sb);
+
+        sb.reverse();
         System.out.println(sb);
     }
 }

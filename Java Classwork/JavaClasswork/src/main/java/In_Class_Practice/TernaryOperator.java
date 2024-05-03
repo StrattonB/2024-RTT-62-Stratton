@@ -1,3 +1,5 @@
+package In_Class_Practice;
+
 public class TernaryOperator {
     public static void main(String[] args){
 //        int age =18;

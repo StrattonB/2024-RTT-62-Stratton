@@ -134,10 +134,10 @@ public class PA_303_7_1 {
         System.out.println("---------- Task 10 ----------");
 //  Create an array that includes an integer, 3 strings, and 1 double. Print the array.
 
-        Object[] array10={10,"hello", "I'm", "Ben", 3.14};
+        Object[] array10 = {10, "hello", "I'm", "Ben", 3.14};
 
         System.out.println("Array:");
-        for(Object element:array10){
+        for (Object element : array10) {
             System.out.println(element);
         }
 
@@ -145,16 +145,16 @@ public class PA_303_7_1 {
 //  Write some Java code that asks the user how many favorite things they have.
         Scanner scan = new Scanner(System.in);
         System.out.println("How many favorite things do you have?");
-        int numOfFavs=scan.nextInt();
+        int numOfFavs = scan.nextInt();
 //  Based on their answer, you should create a String array of the correct size.
-        String[] favs=new String[numOfFavs];
+        String[] favs = new String[numOfFavs];
 //  Then ask the user to enter the things and store them in the array you created.
-        for(int pos=0;pos<numOfFavs;pos++){
-            System.out.println("Enter favorite thing # "+(pos+1)+": ");
-            favs[pos]=scan.next();
+        for (int pos = 0; pos < numOfFavs; pos++) {
+            System.out.println("Enter favorite thing # " + (pos + 1) + ": ");
+            favs[pos] = scan.next();
         }
 //  Finally, print out the contents of the array.
-        for (String thing:favs){
+        for (String thing : favs) {
             System.out.println(thing);
         }
 

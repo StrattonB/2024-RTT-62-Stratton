@@ -157,18 +157,18 @@ public class PA_303_4_1 {
 
 //  Create a program that lets the users input their
 //  filing status and income.
-            out.println("Please enter your tax filing status");
-            String taxStatus = scan.nextLine();
-            out.println("Please enter your annual income");
-            int income = scan.next();
+//            out.println("Please enter your tax filing status");
+//            String taxStatus = scan.nextLine();
+//            out.println("Please enter your annual income");
+//            int income = scan.next();
 //  Display how much tax the user would have to pay according
 //  to status and income.
-            if (taxStatus == "Single"){
-
-                }
+//            if (taxStatus == "Single"){
+//
+//                }
 
             }
 
         }
     }
-}
+

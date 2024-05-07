@@ -1,6 +1,8 @@
+package Homework;
+
 import java.text.DecimalFormat;
 
-public class Homework303_2_1 {
+public class Homework_303_2_1 {
         
     public static void main(String[] args){
 

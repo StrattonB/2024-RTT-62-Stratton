@@ -26,10 +26,15 @@ public class ArrayInsert {
         //pos 01234
         //val 12345
         int[] array = {1, 2, 3, 4, 5};
+
         System.out.println(Arrays.toString(array));
+
         array = insert(array, 2,9);
+
         System.out.println(Arrays.toString(array));
+
         array = insert(array, 0,0);
+
         System.out.println(Arrays.toString(array));
 
     }

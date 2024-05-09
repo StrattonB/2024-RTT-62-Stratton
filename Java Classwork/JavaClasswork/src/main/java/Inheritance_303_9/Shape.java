@@ -1,9 +1,19 @@
 package Inheritance_303_9;
+public abstract class Shape {
 
-public class Shape {
     public static double area;
 
     private String name;
+
+    // this is the definition for a method that all child classes
+    // must implement.  There is no implementation here
+    public abstract double calculateArea();
+
+
+
+
+
+
 
     public Shape() {
 
@@ -17,7 +27,6 @@ public class Shape {
         System.out.println("The name of the shape is " + name);
     }
 
-    public abstract double calculateArea();
 
 
     public String getName() {

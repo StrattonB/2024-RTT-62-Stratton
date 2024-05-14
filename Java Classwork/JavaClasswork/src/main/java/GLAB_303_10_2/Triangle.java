@@ -2,7 +2,7 @@ package GLAB_303_10_2;
 
 public class Triangle extends Shape{
     public Triangle(){}
-    public Triangle(String color, double area, double width, double height){
+    public Triangle(String color, double area, double base, double width, double height){
         super(color,
                 area,
                 base,

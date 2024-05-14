@@ -1,4 +1,5 @@
-package GLAB_303_10_4;
+import GLAB_303_10_4.Circle;
+import GLAB_303_10_4.Movable;
 
 public class myRunner {
     public static void main(String[] args) {
@@ -28,5 +29,4 @@ public class myRunner {
         c2.moveLeft();
         System.out.println("After move Left , Coordinates are " + c2.getCoordinate());
     }
-
 }
